@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: DemoApplication
+#更改Tomcat端口
+server:
+    port: 9090
+
+
+## 书信息
+demo1:
+  book:
+    name: 《Spring Boot 2.x 核心技术实战 - 上 基础篇》
+    writer: 泥瓦匠BYSocket
+
+
+demo2:
+  book:
+    name: test
+    writer: Mr kang
