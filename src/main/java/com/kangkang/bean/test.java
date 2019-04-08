@@ -15,6 +15,7 @@ public class test {
 
         String ss = "Adaptive Security Appliance ' GigabitEthernet0 / 3 ' interface";
         StringBuffer sb = new StringBuffer(ss);
+        System.out.println("测试代码");
         if(ss.contains("'")){
             int index = ss.indexOf("'");
             sb.insert(index,"\\");
